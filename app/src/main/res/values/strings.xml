@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Polymorph</string>
+    <string name="menu_item_search">Search</string>
+    <string name="menu_item_saved">Saved</string>
+    <string name="menu_item_more">More</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
