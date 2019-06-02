@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
-            android:id="@+id/navigation_graph"
-            app:startDestination="@id/searchFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/searchFragment">
 
     <fragment
-            android:id="@+id/searchFragment"
-            android:name="com.gathergood.calum.polymorph.SearchFragment"
-            android:label="fragment_search"
-            tools:layout="@layout/fragment_search"/>
+        android:id="@+id/searchFragment"
+        android:name="com.gathergood.calum.polymorph.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
     <fragment
-            android:id="@+id/savedFragment"
-            android:name="com.gathergood.calum.polymorph.SavedFragment"
-            android:label="fragment_saved"
-            tools:layout="@layout/fragment_saved"/>
+        android:id="@+id/savedFragment"
+        android:name="com.gathergood.calum.polymorph.SavedFragment"
+        android:label="fragment_saved"
+        tools:layout="@layout/fragment_saved" />
     <fragment
-            android:id="@+id/moreFragment"
-            android:name="com.gathergood.calum.polymorph.MoreFragment"
-            android:label="fragment_more"
-            tools:layout="@layout/fragment_more"/>
+        android:id="@+id/moreFragment"
+        android:name="com.gathergood.calum.polymorph.MoreFragment"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" />
 </navigation>
